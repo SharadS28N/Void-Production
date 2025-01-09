@@ -13,7 +13,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
   const login = async (username: string, password: string) => {
     // In a real application, you would validate credentials against a backend
-    if (username === 'admin' && password === 'admin123') {
+    if (username === 'void' && password === 'voidhole') {
       setIsAuthenticated(true);
       return true;
     }
